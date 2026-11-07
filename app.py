@@ -21,7 +21,7 @@ def create_app(db=None):
         response.headers['Content-Security-Policy']="default-src 'self'; script-src 'self'; style-src 'self'; frame-ancestors 'none'"
         return response
     @app.get('/')
-    def index(): return render_template('index.html')
+    def index(): return render_template('index.html', data_note=app.config.get('DATA_NOTE', ''))
     @app.post('/api/echo')
     def echo():
         data=request.get_json(silent=True)
