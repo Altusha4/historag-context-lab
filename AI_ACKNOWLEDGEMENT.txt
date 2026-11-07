@@ -1,0 +1,15 @@
+AI-assisted draft prepared on 7 November 2026 using OpenAI Codex.
+Scope: architecture, project paragraph, Python collector and API, SQL schema,
+HTML/CSS/JavaScript frontend, tests, documentation and packaging.
+User request: prepare all remaining Applications of Software Architecture for
+Big Data assignments. The existing HistoRAG research idea was selected from
+prior user instructions. No private research dataset is distributed.
+Implementation prompt/brief: create an honestly scoped HistoRAG course MVP
+with a separate external API collector, SQLite persistence, REST report and
+input echo; add validation, idempotent storage, monitoring and tests.
+Iteration: inspect actual assignment requirements; implement a small prototype;
+run unit/integration checks and a real collection; inspect output before upload.
+The learner must review the code, understand it and amend this acknowledgement
+with their own changes before submitting. Do not claim independent authorship.
+Reference: OpenAI. (2026). Codex [AI coding assistant]. https://openai.com/codex/
+This work does not reproduce or validate the original HistoRAG paper's results.
